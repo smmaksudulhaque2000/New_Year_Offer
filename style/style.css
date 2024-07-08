@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Merriweather", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* font-family: "Inter", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header Style Starts Hear */
+header{
+    font-family: "Merriweather", serif;
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 50px auto;
+    background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.header-title{
+    font-size: 32px;
+}
+.header-content{
+    font-size: 72px;
+}
+
+/* Main Style Starts Hear */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Offer Style Starts Hear */
+
+.offer-container{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 802px;
+    max-height: 806px;
+    margin: 120px auto;
+}
+.offer-head{
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 49px;
+    color: #FF0000;
+}
+.offer-description{
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+.offer-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 47px;
+}
+.offer-img{
+    width: 802px;
+    height: 500;
+}
+
+/* Welcome Style Starts Hear */
+.welcome-container{
+    max-width: 1320px;
+    max-height: 600px;
+    display: flex;
+    background: linear-gradient(90.00deg, rgb(5, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    border-radius: 16px;
+}
+.welcome-right{
+    width: 319px;
+    height: 464px;
+    margin-top: 68px;
+    margin-right: 138px;
+    margin-bottom: 67px;
+}
+.welcome-title{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-top: 126px;
+    margin-left: 266px;
+}
+.welcome-description{
+    font-family: "Inter", sans-serif;
+    font-size: 18;
+    color: #ffffff;
+    opacity: 80%;
+    margin-top: 24px;
+    margin-left: 266px;
+    margin-bottom: 48px;
+}
+.now{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 368px;
+}
+
+/* Join Style Starts Hear */
+.join-container{
+    font-family: "Inter", sans-serif;
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+}
+.content{
+    font-size: 32px;
+    font-weight:bold;
+}
+.line-hed{
+    color: #FF0000;
+}
+.join{
+    text-align: center;
+    line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.btn{
+    margin-top: 48px;
+}
+.join-now{
+    width: 167px;
+    height: 56px;
+    text-align: center;
+    padding: auto 32px;
+    background-color: #FF0000;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Coming Soon Offer Style Starts Hear */
+.coming-soon-offer-container{
+    width: 1320px;
+    height: 463px;
+    display: flex;
+ justify-content: space-between;  
+}
+.offer-left{
+    width: 393px;
+    height: 255px;
+    margin-top: 104px;
+    margin-bottom: 104px;
+    margin-right: 70px;
+}
+.coming-soon-offer-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    display: flex;
+}
+.coming-soon-offer-head{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.coming-soon-offer-description-left{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.offer-inner{
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 15px solid rgb(255, 0, 0);
+    width: 463px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#round-image{
+    width: 364px;
+    height: 364px;
+}
+.coming-soon-offer-year{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.coming-soon-offer-description-right{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 276px;
+    height: 96px;
+    margin-top: 15px;
+}
+.coming-soon-offer-image-right{
+
+    width: 140px;
+    height: 140px;
+    margin-right: 136px;
+    margin-top: 43px;
+}
+.offer-right{
+   margin-top: 112px;
+}
