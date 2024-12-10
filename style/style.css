@@ -138,9 +138,9 @@ main{
 .join{
     text-align: center;
     line-height: 56px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
 }
 .btn{
     margin-top: 48px;
@@ -166,7 +166,7 @@ text-transform: capitalize;
     width: 1320px;
     height: 463px;
     display: flex;
- justify-content: space-between;  
+    justify-content: space-between;  
 }
 .offer-left{
     width: 393px;
@@ -247,4 +247,209 @@ text-transform: capitalize;
 }
 .offer-right{
    margin-top: 112px;
+}
+
+/* Holiday Style Starts Hear */
+.holiday-upper-container{
+    width: 1320px;
+    height: 986px;
+    margin-top: 120px;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1320px 229px;
+    
+}
+.holiday-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.holiday-title{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+.holiday-head{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    margin-top: 16px;
+}
+.holiday-head-highlight{
+    color: rgb(255, 0, 0);
+}
+.holiday-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 28px;
+}
+#holiday-gift-box{
+    width: 796px;
+    height: 662px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+#holiday-discount{
+    width: 305.69px;
+    height: 305.69px;
+    margin-right: 180px;
+    margin-bottom: 279px;
+}
+/* portfolio Style Starts Hear */
+
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin-top: 120px;
+    
+}
+.portfolio-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.portfolio-header{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 22px;
+}
+.portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+.items{
+    width: 424px;
+    height: 450px;
+
+}
+/* Subscribe Style Starts Hear */
+
+.subscribe-container{
+    width: 1320px;
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.sbscribe-image{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+.subscribe-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.subscribe-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.subscribe-input{
+    width: 648px;
+    height: 72px;
+    display: flex;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+
+}
+#email{
+    padding: 25px 267px 25px 30px;
+    border-radius: 50px 0px 0px 50px;
+    border: hidden;
+}
+.subscribe-btn{
+    background-color: #FF0000;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    border: hidden;
+}
+/* footer Style Starts Hear */
+
+footer{
+    width: 1600px;
+    height: 609px;
+    background: rgb(7, 2, 17);
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+width: 1185px;
+height: 80px;
+display: flex;
+justify-content: space-between;
+}
+.icons{
+    display: flex;
+    gap: 24px;
 }
